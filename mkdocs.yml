@@ -1,5 +1,5 @@
-site_name: Koros Portfolio
-site_url: https://koros.github.io/
+site_name: Koros Docs
+site_url: https://koros33.github.io/
 
 nav:
   - Home: index.md
