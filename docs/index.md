@@ -1,4 +1,4 @@
-# Welcome — Koros Docs
+# Koros Docs
 
 Hi I'm Koros Ian. This site showcases product guides, API docs, and tutorials I'm currently working on.
 
