@@ -2,9 +2,7 @@ site_name: Koros Docs
 site_url: https://koros33.github.io
 theme:
   name: material
-
 nav:
-  nav:
   - Home: index.md
   - About: about.md
   - Product Guides: product guides/index.md
