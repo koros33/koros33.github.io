@@ -1,0 +1,17 @@
+site_name: Koro's Docs
+site_url: https://koros.github.io
+theme:
+  name: material
+
+nav:
+  - Home: index.md
+  - About: about.md
+  - Product Guides:
+      - Overview: product-guides/index.md
+      - Example Guide: product-guides/example-guide.md
+  - API Docs:
+      - Overview: api-docs/index.md
+      - Weather API: api-docs/weather.md
+  - Blog:
+      - Posts: blog/index.md
+  - Contact: contact.md
