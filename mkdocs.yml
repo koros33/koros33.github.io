@@ -1,14 +1,20 @@
-site_name: Koros Docs
-site_url: https://koros33.github.io
-theme:
-  name: material
+site_name: Koros Portfolio
+site_url: https://koros.github.io/
+
 nav:
   - Home: index.md
   - About: about.md
-  - Product Guides: product guides/index.md
+  - Product Guides: product-guides.md
   - API Docs:
-      - Overview: api-docs/index.md
-      - Weather API: api-docs/weather.md
-      - Payments API: api-docs/payments.md
+      - Overview: api/index.md
+      - Weather API: api/weather.md
+      - Payments API: api/payments.md
   - Blog: blog/index.md
   - Contact: contact.md
+
+theme:
+  name: material
+
+# Prevent build errors if some files don't exist yet
+plugins:
+  - search
