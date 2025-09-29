@@ -9,6 +9,7 @@ nav:
   - About: about.md
   - Product Guides: product guides/index.md
   - API Docs:
+      - Overview: api-docs/index.md
       - Weather API: api-docs/weather.md
       - Payments API: api-docs/payments.md
   - Blog: blog/index.md
