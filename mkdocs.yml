@@ -1,7 +1,7 @@
 # Site Information
-site_name: Koros33 Documentation
+site_name: Koros docs
 site_url: https://koros33.github.io/
-site_author: Koros33
+site_author: Koros
 site_description: Documentation site for Koros33 projects
 
 # Repository
@@ -104,24 +104,16 @@ markdown_extensions:
 
 # Navigation
 nav:
-  - Home: index.md
-  - Getting Started:
-    - Introduction: getting-started/introduction.md
-    - Installation: getting-started/installation.md
-    - Quick Start: getting-started/quick-start.md
-  - Documentation:
-    - Overview: documentation/overview.md
-    - API Reference: documentation/api-reference.md
-    - Examples: documentation/examples.md
-  - Guides:
-    - Tutorials: guides/tutorials.md
-    - Best Practices: guides/best-practices.md
-    - Troubleshooting: guides/troubleshooting.md
-  - About:
-    - About: about/about.md
-    - Contributing: about/contributing.md
-    - License: about/license.md
-    - Tags: tags.md
+- Home: index.md
+  - About: about.md
+  - Product Guides: 
+      - Overview: product guides/index.md
+  - API Docs:
+      - Overview: API docs/index.md
+      - Weather API: API docs/weather.md
+      - Payments API: API docs/payments.md
+  - Blog: blogs/index.md
+  - Contact: contact.md
 
 # Extra
 extra:
