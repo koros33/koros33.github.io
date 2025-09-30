@@ -1,19 +1,151 @@
-site_name: Koros docs
+# Site Information
+site_name: Koros33 Documentation
 site_url: https://koros33.github.io/
+site_author: Koros33
+site_description: Documentation site for Koros33 projects
 
-nav:
-  - Home: index.md
-  - About: about.md
-  - Product Guides: product-guides.md
-  - API Docs:
-      - Overview: api/index.md
-      - Weather API: api/weather.md
-      - Payments API: api/payments.md
-  - Blog: blog/index.md
-  - Contact: contact.md
+# Repository
+repo_name: koros33/koros33.github.io
+repo_url: https://github.com/koros33/koros33.github.io
+edit_uri: edit/main/docs/
 
+# Copyright
+copyright: Copyright &copy; 2025 Koros33
+
+# Theme Configuration
 theme:
   name: material
+  language: en
+  palette:
+    # Light mode
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: indigo
+      accent: indigo
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
+    # Dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: indigo
+      accent: indigo
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
+  font:
+    text: Roboto
+    code: Roboto Mono
+  features:
+    - navigation.tabs
+    - navigation.sections
+    - navigation.expand
+    - navigation.top
+    - navigation.tracking
+    - navigation.indexes
+    - search.suggest
+    - search.highlight
+    - search.share
+    - content.code.copy
+    - content.code.annotate
+    - content.tabs.link
+  icon:
+    repo: fontawesome/brands/github
 
+# Plugins
 plugins:
-  - search
+  - search:
+      lang: en
+      separator: '[\s\-\.]+'
+  - tags:
+      tags_file: tags.md
+  - git-revision-date-localized:
+      enable_creation_date: true
+      type: timeago
+
+# Extensions
+markdown_extensions:
+  # Python Markdown
+  - abbr
+  - admonition
+  - attr_list
+  - def_list
+  - footnotes
+  - md_in_html
+  - toc:
+      permalink: true
+      toc_depth: 3
+  
+  # Python Markdown Extensions
+  - pymdownx.arithmatex:
+      generic: true
+  - pymdownx.betterem:
+      smart_enable: all
+  - pymdownx.caret
+  - pymdownx.details
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+  - pymdownx.highlight:
+      anchor_linenums: true
+      line_spans: __span
+      pygments_lang_class: true
+  - pymdownx.inlinehilite
+  - pymdownx.keys
+  - pymdownx.mark
+  - pymdownx.smartsymbols
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
+  - pymdownx.tabbed:
+      alternate_style: true
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - pymdownx.tilde
+
+# Navigation
+nav:
+  - Home: index.md
+  - Getting Started:
+    - Introduction: getting-started/introduction.md
+    - Installation: getting-started/installation.md
+    - Quick Start: getting-started/quick-start.md
+  - Documentation:
+    - Overview: documentation/overview.md
+    - API Reference: documentation/api-reference.md
+    - Examples: documentation/examples.md
+  - Guides:
+    - Tutorials: guides/tutorials.md
+    - Best Practices: guides/best-practices.md
+    - Troubleshooting: guides/troubleshooting.md
+  - About:
+    - About: about/about.md
+    - Contributing: about/contributing.md
+    - License: about/license.md
+    - Tags: tags.md
+
+# Extra
+extra:
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/koros33
+    - icon: fontawesome/brands/twitter
+      link: https://twitter.com/koros33
+    - icon: fontawesome/brands/linkedin
+      link: https://linkedin.com/in/koros33
+  analytics:
+    provider: google
+    property: G-XXXXXXXXXX  # Replace with your Google Analytics ID
+  version:
+    provider: mike
+
+# Extra CSS/JS
+extra_css:
+  - stylesheets/extra.css
+
+extra_javascript:
+  - javascripts/extra.js
+  - https://polyfill.io/v3/polyfill.min.js?features=es6
+  - https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js
