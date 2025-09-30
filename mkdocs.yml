@@ -104,9 +104,9 @@ markdown_extensions:
 
 # Navigation
 nav:
-- Home: index.md
+  - Home: index.md
   - About: about.md
-  - Product Guides: 
+  - Product Guides:
       - Overview: product guides/index.md
   - API Docs:
       - Overview: API docs/index.md
@@ -114,6 +114,7 @@ nav:
       - Payments API: API docs/payments.md
   - Blog: blogs/index.md
   - Contact: contact.md
+
 
 # Extra
 extra:
