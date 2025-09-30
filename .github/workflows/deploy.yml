@@ -9,6 +9,9 @@ jobs:
   deploy:
     runs-on: ubuntu-latest
 
+    permissions:   # 👈 give write access so gh-deploy can push
+      contents: write
+
     steps:
       - name: Checkout repository
         uses: actions/checkout@v3
@@ -24,6 +27,4 @@ jobs:
 
       - name: Deploy to GitHub Pages
         run: |
-          mkdocs gh-deploy --force
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          mkdocs gh-deploy --force --remote-name origin
