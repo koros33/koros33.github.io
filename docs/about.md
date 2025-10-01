@@ -1,18 +1,13 @@
-# About Me  
+# About Me
 
-Hi, I’m Ian Koros a self-taught technical writer passionate about creating clear, developer-friendly documentation.  
+> Docs should be like good coffee: strong, clear, and impossible to ignore. ☕  
 
-## Core Skills  
-- API documentation (Markdown, Swagger/OpenAPI, Postman) .
-- How-to guides, tutorials, and technical articles.
-- Product guides and reference docs .
-- Writing white papers on technology and APIs.  
+I’m [Your Name], a technical writer with a background in journalism.  
+I craft **API docs, user manuals, onboarding guides, and FAQs** that help your users succeed without rage clicking.  
 
-## Experience  
-- Built sample API docs (Weather API, Payments API).
-- Created product guides for onboarding and integration.
-- Wrote technical articles on API documentation and developer experience.
+- Markdown + Git = my happy place 🛠️  
+- Postman + cURL = my API playground 🌐  
+- Notion + Confluence = my collaboration toolkit 💡  
 
-## Career Goals  
-I’m open to freelance, internship, or full-time opportunities (remote or on-site) where I can help teams improve their docs and developer experience.  
+Currently exploring the intersection of **SaaS, DevTools, and AI** — and open to **remote roles & internships** where I can put my documentation skills to work.  
 
