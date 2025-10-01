@@ -17,7 +17,6 @@ theme:
   name: material
   language: en
   palette:
-    # Light mode
     - media: "(prefers-color-scheme: light)"
       scheme: default
       primary: indigo
@@ -25,7 +24,6 @@ theme:
       toggle:
         icon: material/brightness-7
         name: Switch to dark mode
-    # Dark mode
     - media: "(prefers-color-scheme: dark)"
       scheme: slate
       primary: indigo
@@ -62,7 +60,6 @@ plugins:
 
 # Extensions
 markdown_extensions:
-  # Python Markdown
   - abbr
   - admonition
   - attr_list
@@ -72,8 +69,6 @@ markdown_extensions:
   - toc:
       permalink: true
       toc_depth: 3
-  
-  # Python Markdown Extensions
   - pymdownx.arithmatex:
       generic: true
   - pymdownx.betterem:
@@ -114,11 +109,11 @@ nav:
       - Markdown: productguides/markdown.md
       - Whitepaper: productguides/whitepaper.md
   - API Docs:
-      - Home: Api Docs/index.md
+      - Home: apidocs/index.md
       - Weather API:
-          - Home: apiDocs/Weatherapi/index.md
-          - Authentication: apiDocs/Weatherapi/authentication.md
-          - Current Weather: apiDocs/Weatherapi/current-weather.md
+          - Home: apidocs/weatherapi/index.md
+          - Authentication: apidocs/weatherapi/authentication.md
+          - Current Weather: apidocs/weatherapi/current-weather.md
           - Forecast: apidocs/weatherapi/forecast.md
           - Error Codes: apidocs/weatherapi/errors.md
       - Payments API:
@@ -129,7 +124,6 @@ nav:
           - Error Codes: apidocs/paymentsapi/errors.md
   - Blog: blogs/index.md
   - Contact: contact.md
-
 
 # Extra
 extra:
@@ -142,7 +136,7 @@ extra:
       link: https://linkedin.com/in/koros33
   analytics:
     provider: google
-    property: G-XXXXXXXXXX  # Replace with your Google Analytics ID
+    property: G-XXXXXXXXXX
   version:
     provider: mike
 
