@@ -1,6 +1,4 @@
 # API Documentation
-
-Welcome to the **API Documentation Hub**.  
 This section contains documentation I’ve written for two APIs as part of my technical writing portfolio:  
 
 - **Weather API** 🌦️ — Based on the real [OpenWeather API](https://openweathermap.org/api), providing current weather, forecasts, and related data.  
@@ -32,8 +30,6 @@ A: Yes — you can test the Weather API using your own OpenWeather API key. The 
 
 **Q: Why document them?**  
 A: To showcase technical writing skills, including structuring docs, writing clear examples, and explaining authentication, endpoints, and error handling.  
-
----
 
 ## ✨ Note
 This section is part of a **portfolio project** designed to highlight technical documentation skills.  
