@@ -107,26 +107,26 @@ nav:
   - Home: index.md
   - About: about.md
   - Product Guides:
-      - Overview: product-guides/index.md
-      - Git: product-guides/git.md
-      - Notion: product-guides/notion.md
-      - Slack: product-guides/slack.md
-      - Markdown: product-guides/markdown.md
-      - Whitepaper: product-guides/whitepaper.md
+      - Overview: productguides/index.md
+      - Git: productguides/git.md
+      - Notion: productguides/notion.md
+      - Slack: productguides/slack.md
+      - Markdown: productguides/markdown.md
+      - Whitepaper: productguides/whitepaper.md
   - API Docs:
-      - Home: api-docs/index.md
+      - Home: Api Docs/index.md
       - Weather API:
-          - Home: api-docs/weather-api/index.md
-          - Authentication: api-docs/weather-api/authentication.md
-          - Current Weather: api-docs/weather-api/current-weather.md
-          - Forecast: api-docs/weather-api/forecast.md
-          - Error Codes: api-docs/weather-api/errors.md
+          - Home: apiDocs/Weatherapi/index.md
+          - Authentication: apiDocs/Weatherapi/authentication.md
+          - Current Weather: apiDocs/Weatherapi/current-weather.md
+          - Forecast: apidocs/weatherapi/forecast.md
+          - Error Codes: apidocs/weatherapi/errors.md
       - Payments API:
-          - Home: api-docs/payments-api/index.md
-          - Authentication: api-docs/payments-api/authentication.md
-          - Create Payment: api-docs/payments-api/create-payment.md
-          - Get Payment Status: api-docs/payments-api/get-status.md
-          - Error Codes: api-docs/payments-api/errors.md
+          - Home: apidocs/paymentsapi/index.md
+          - Authentication: apidocs/paymentsapi/authentication.md
+          - Create Payment: apidocs/paymentsapi/create-payment.md
+          - Get Payment Status: apidocs/paymentsapi/get-status.md
+          - Error Codes: apidocs/paymentsapi/errors.md
   - Blog: blogs/index.md
   - Contact: contact.md
 
