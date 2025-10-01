@@ -33,7 +33,7 @@ curl "https://api.openweathermap.org/data/2.5/weather?q=London&units=metric&appi
 ```
 
 
-### Example Response (Truncated)
+### Example Response (sample)
 
 ```json
 {
