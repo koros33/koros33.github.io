@@ -107,11 +107,26 @@ nav:
   - Home: index.md
   - About: about.md
   - Product Guides:
-      - Overview: product guides/index.md
+      - Overview: product-guides/index.md
+      - Git: product-guides/git.md
+      - Notion: product-guides/notion.md
+      - Slack: product-guides/slack.md
+      - Markdown: product-guides/markdown.md
+      - Whitepaper: product-guides/whitepaper.md
   - API Docs:
-      - Overview: API docs/index.md
-      - Weather API: API docs/weather.md
-      - Payments API: API docs/payments.md
+      - Home: api-docs/index.md
+      - Weather API:
+          - Home: api-docs/weather-api/index.md
+          - Authentication: api-docs/weather-api/authentication.md
+          - Current Weather: api-docs/weather-api/current-weather.md
+          - Forecast: api-docs/weather-api/forecast.md
+          - Error Codes: api-docs/weather-api/errors.md
+      - Payments API:
+          - Home: api-docs/payments-api/index.md
+          - Authentication: api-docs/payments-api/authentication.md
+          - Create Payment: api-docs/payments-api/create-payment.md
+          - Get Payment Status: api-docs/payments-api/get-status.md
+          - Error Codes: api-docs/payments-api/errors.md
   - Blog: blogs/index.md
   - Contact: contact.md
 
