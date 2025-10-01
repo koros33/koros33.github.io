@@ -1,35 +1,85 @@
-# API Documentation
-This section contains documentation I’ve written for two APIs as part of my technical writing portfolio:  
+# OpenWeather API Documentation
 
-- **Weather API** 🌦️ — Based on the real [OpenWeather API](https://openweathermap.org/api), providing current weather, forecasts, and related data.  
-- **Payments API** 💳 — A sample API I created to demonstrate how financial/payment systems could be documented.  
+Welcome to the **OpenWeather API documentation**.  
+This is a **simplified, portfolio-ready version** of the OpenWeather API, created to demonstrate clear technical documentation practices.  
 
+You will find instructions on authentication, available endpoints, and error handling.  
+For full API details, visit the [official OpenWeather docs](https://openweathermap.org/api).
 
-## 📚 What’s Included
-For each API, the documentation is structured into:
+---
 
-- **Overview** — Introduction and key features.  
-- **Authentication** — How to access the API.  
-- **Endpoints** — Parameters, request examples, and responses.  
-- **Errors** — Error codes and handling guidelines.  
-- **Quickstart** — A simple step-by-step example to get started.  
+## 📌 What’s Covered
+- [Authentication](authentication.md) – Learn how to use your API key.
+- [Current Weather](current-weather.md) – Get real-time weather by city or coordinates.
+- [Forecast](forecast.md) – Retrieve 5-day / 3-hour forecast data.
+- [Error Codes](errors.md) – Understand possible error responses.
 
+---
 
-## 🚀 Quick Links
-- [Weather API Documentation](weather/index.md)  
-- [Payments API Documentation](payments/index.md)  
+## 🚀 Getting Started
 
+### Prerequisites
+1. A free [OpenWeather account](https://home.openweathermap.org/users/sign_up).  
+2. An API key (generated from your OpenWeather dashboard).  
+3. A tool like **cURL**, **Postman**, or any HTTP client to make requests.  
+
+---
+
+### Base URL
+All requests are made over HTTPS:
+```
+
+[https://api.openweathermap.org/data/2.5/](https://api.openweathermap.org/data/2.5/)
+
+````
+
+---
+
+### Quick Example
+
+Request current weather for Nairobi, Kenya (metric units):
+
+```bash
+curl "https://api.openweathermap.org/data/2.5/weather?q=London&units=metric&appid=YOUR_API_KEY"
+````
+
+Sample response (sample):
+
+```json
+{
+  "weather": [
+    { "main": "Clear", "description": "clear sky" }
+  ],
+  "main": {
+    "temp": 26.5,
+    "humidity": 54
+  },
+  "wind": { "speed": 3.6 },
+  "name": "London"
+}
+```
+
+---
 
 ## ❓ FAQs
 
-**Q: Are these production APIs?**  
-A: The **Weather API** is based on the real OpenWeather API. The **Payments API** is a **mock API**, created for documentation demonstration purposes.  
+**Q: Is this the official OpenWeather API documentation?**
+A: No. This is a simplified version created as a **portfolio sample for technical writing**.
 
-**Q: Can I test the APIs?**  
-A: Yes — you can test the Weather API using your own OpenWeather API key. The Payments API examples are illustrative only.  
+**Q: Can I actually use these endpoints?**
+A: Yes! The examples are real and based on OpenWeather’s free API. Just replace `YOUR_API_KEY` with a valid one.
 
-**Q: Why document them?**  
-A: To showcase technical writing skills, including structuring docs, writing clear examples, and explaining authentication, endpoints, and error handling.  
+**Q: What’s the rate limit?**
+A: Free accounts are limited to **60 requests per minute** (check official docs for updated limits).
 
-## ✨ Note
-This section is part of a **portfolio project** designed to highlight technical documentation skills.  
+**Q: Why do I see errors when testing?**
+A: Make sure you’ve included a valid `appid` parameter (your API key). See the [Error Codes](errors.md) page for details.
+
+---
+
+## 📖 Next Steps
+
+* [Set up authentication](authentication.md)
+* Try the [Current Weather](current-weather.md) endpoint
+* Explore the [Forecast](forecast.md) endpoint
+* Review possible [Error Codes](errors.md)
