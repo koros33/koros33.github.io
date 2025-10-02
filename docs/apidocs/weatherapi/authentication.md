@@ -3,14 +3,14 @@
 The OpenWeather API requires an **API key** for all requests.  
 This key identifies you and ensures fair usage across the platform.
 
-## 🔑 Obtaining an API Key
+## Obtaining an API Key
 1. Create a free account at [OpenWeather](https://home.openweathermap.org/users/sign_up).
 2. Log in to your [dashboard](https://home.openweathermap.org/api_keys).
 3. Generate a new API key.
 4. Copy and securely store your key (you’ll need it for every request).
 
 
-## 📌 How to Use the API Key
+##  How to Use the API Key
 
 The API key must be included as the `appid` query parameter in each request.
 
@@ -49,7 +49,7 @@ curl "https://api.openweathermap.org/data/2.5/weather?q=London&units=metric&appi
 }
 ```
 
-## ⚡ Best Practices
+##  Best Practices
 
 * **Do not share your key** in public repositories or client-side code.
 * Rotate keys periodically for security.
@@ -57,7 +57,7 @@ curl "https://api.openweathermap.org/data/2.5/weather?q=London&units=metric&appi
 * Use environment variables to store your API key in projects.
 
 
-## ❓ FAQs
+##  FAQs
 
 **Q: Can I pass the key as a header instead of query param?**
 A: No. The OpenWeather API only supports the `appid` query parameter.
