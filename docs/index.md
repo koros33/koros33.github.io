@@ -1,35 +1,31 @@
-# Koros Docs
+# Koros Docs Hub
 
-# 👋 Hi, I'm Koros Ian 
+Welcome to **Koros Docs**, your central hub for technical guides, API references, and resources for popular tools and products.
 
-### Self-taught Technical Writer | SaaS • Developer Tools • AI
+## Explore Our Documentation
 
-I turn complex technology into simple, user-friendly documentation.  
-From **API references** and **user guides** to **knowledge bases** and **quick-start tutorials**, I help teams communicate clearly with their users.
+- **APIs**
+  - [Weather API](weatherapi/index.md) – Access current weather data and forecasts.
+  - [Payments API](paymentsapi/index.md) – Create payments, check status, and manage transactions.
 
+- **Product Guides**
+  - Guides for commonly used tools like **Notion**, **Git/GitHub**, **Postman**, and more.
 
-## 🚀 What I Do
-- ✍️ Technical Documentation (user manuals, setup guides, FAQs)
-- 📘 API Documentation (REST, cURL, Postman workflows)
-- ⚙️ Knowledge Base & Help Center articles
-- 🧩 Tutorials & Product Walkthroughs
+- **White Papers**
+  - In-depth technical write-ups and industry insights.
 
+- **Blog & Tutorials**
+  - Step-by-step tutorials, product walkthroughs, and technical articles.
 
-## 🛠️ Tools & Workflow
-Markdown • Git/GitHub • Confluence • Notion • Slack • Postman • cURL
+- **Contact**
+  - Reach out for questions, feedback, or collaborations. [Contact Page](contact.md)
 
-*Docs-as-code mindset, clear structure, and collaborative workflows.*
+## Getting Started
 
+Start exploring the content that matters to you:
 
-
-## 🌍 Open for Opportunities
-I’m currently **open to internships and remote roles** in technical writing.  
-Let’s connect!
-
-
-Quick links:
-- [About](about.md)
-- [Product Guides](product-guides/index.md)
-- [API Docs](api-docs/index.md)
-- [Blog](blog/index.md)
-- [Contact](contact.md)
+1. [API Docs](index.md#apis) – Learn how to authenticate, use endpoints, and handle errors.  
+2. [Product Guides](index.md#product-guides) – Step-by-step guides for popular tools and software.  
+3. [White Papers](index.md#white-papers) – Detailed technical insights and research.  
+4. [Blog & Tutorials](index.md#blog--tutorials) – Tutorials, walkthroughs, and articles.  
+5. [Contact](contact.md) – Get in touch for support or feedback.
