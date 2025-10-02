@@ -16,8 +16,8 @@ For each API, the documentation is structured into:
 
 
 ##  Quick Links
-- [Weather API Documentation](weather/index.md)  
-- [Payments API Documentation](payments/index.md)  
+- [Weather API Documentation](weatherapi/index.md)  
+- [Payments API Documentation](paymentsapi/index.md)  
 
 
 ##  FAQs
