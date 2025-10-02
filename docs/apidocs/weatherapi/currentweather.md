@@ -10,7 +10,7 @@ GET /weather
 
 Base URL:
 ```
-[https://api.openweathermap.org/data/2.5/weather](https://api.openweathermap.org/data/2.5/weather)
+(https://api.openweathermap.org/data/2.5/weather)
 ```
 
 ##  Parameters
