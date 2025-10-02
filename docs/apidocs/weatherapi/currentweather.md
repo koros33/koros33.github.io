@@ -11,12 +11,9 @@ GET /weather
 Base URL:
 ```
 [https://api.openweathermap.org/data/2.5/weather](https://api.openweathermap.org/data/2.5/weather)
-
-````
-
+```
 
 ##  Parameters
-
 
 | Name      | Type   | Required | Description |
 |-----------|--------|----------|-------------|
@@ -29,13 +26,13 @@ Base URL:
 | `appid`   | string | Yes      | Your API key |
 
 
-
 ##  Example Requests
 
 ### By City Name
+
 ```bash
 curl "https://api.openweathermap.org/data/2.5/weather?q=London&units=metric&appid=YOUR_API_KEY"
-````
+```
 
 ### By Coordinates
 
