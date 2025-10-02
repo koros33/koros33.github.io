@@ -13,8 +13,7 @@ All errors follow this structure:
   "code": "404",
   "message": "city not found"
 }
-````
-
+```
 
 ## Common Status Codes
 
