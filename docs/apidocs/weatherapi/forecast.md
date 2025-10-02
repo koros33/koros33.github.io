@@ -13,7 +13,7 @@ GET /forecast
 
 
 
-## Parameters
+##  Parameters
 
 | Name    | Type   | Required                     | Description                                      |
 |---------|--------|-------------------------------|-------------------------------------------------|
