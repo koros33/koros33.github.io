@@ -17,6 +17,7 @@ All errors follow this structure:
 
 ##  Common Status Codes
 
+
 | Code    | Meaning               | Example Message                      | When It Happens                   |
 | ------- | --------------------- | ------------------------------------ | --------------------------------- |
 | **200** | OK                    | —                                    | Request succeeded                 |
@@ -57,7 +58,7 @@ All errors follow this structure:
 ```
 
 
-## 🛠️ Handling Errors in Your App
+##  Handling Errors in Your App
 
 1. **Check HTTP status codes** before processing the response.
 2. **Retry logic**: For 500 or 429 errors, implement exponential backoff.
@@ -66,7 +67,7 @@ All errors follow this structure:
 
 
 
-## ❓ FAQs
+##  FAQs
 
 **Q: What happens if I exceed my free tier limit?**
 A: You’ll receive a `429 Too Many Requests` error until your quota resets.
