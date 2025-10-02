@@ -8,9 +8,9 @@ It returns temperature, humidity, wind, clouds, and weather conditions for each 
 ##  Endpoint
 
 GET /forecast
-
- [https://api.openweathermap.org/data/2.5/forecast](https://api.openweathermap.org/data/2.5/forecast)
-
+```bash
+  curl "https://api.openweathermap.org/data/2.5/forecast"
+```
 
 
 ##  Parameters
