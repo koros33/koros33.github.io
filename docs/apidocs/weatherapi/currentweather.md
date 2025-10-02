@@ -5,15 +5,11 @@ It returns temperature, humidity, pressure, wind speed, and general conditions.
 
 
 ##  Endpoint
-```
 
 GET /weather
 
-```
-
 Base URL:
 ```
-
 [https://api.openweathermap.org/data/2.5/weather](https://api.openweathermap.org/data/2.5/weather)
 
 ````
@@ -53,7 +49,7 @@ curl "https://api.openweathermap.org/data/2.5/weather?lat=-1.2921&lon=36.8219&ap
 curl "https://api.openweathermap.org/data/2.5/weather?zip=94040,us&appid=YOUR_API_KEY"
 ```
 
----
+
 
 ## Example Response (sample)
 
