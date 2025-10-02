@@ -4,7 +4,7 @@ The **Current Weather endpoint** provides real-time weather information for a gi
 It returns temperature, humidity, pressure, wind speed, and general conditions.
 
 
-## 🌍 Endpoint
+##  Endpoint
 ```
 
 GET /weather
@@ -19,7 +19,8 @@ Base URL:
 ````
 
 
-## 🔧 Parameters
+##  Parameters
+
 
 | Name      | Type   | Required | Description |
 |-----------|--------|----------|-------------|
@@ -31,9 +32,9 @@ Base URL:
 | `lang`    | string | Optional | Language for weather description (e.g. `en`, `es`, `fr`) |
 | `appid`   | string | Yes      | Your API key |
 
----
 
-## 📌 Example Requests
+
+##  Example Requests
 
 ### By City Name
 ```bash
@@ -86,14 +87,14 @@ curl "https://api.openweathermap.org/data/2.5/weather?zip=94040,us&appid=YOUR_AP
 ```
 
 
-## 📝 Notes
+##  Notes
 
 * **Precision**: Coordinates are recommended when possible to avoid ambiguity.
 * **Units**: Default is Kelvin unless `units` is specified.
 * **Localization**: Use `lang` parameter to return weather descriptions in your preferred language.
 
 
-## ⚡ Common Use Cases
+##  Common Use Cases
 
 * Display current conditions in a weather dashboard.
 * Power a “What’s the weather now?” chatbot.
