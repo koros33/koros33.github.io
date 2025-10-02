@@ -15,8 +15,9 @@ This key identifies you and ensures fair usage across the platform.
 The API key must be included as the `appid` query parameter in each request.
 
 **Example**
+
 ```bash
-curl "https://api.openweathermap.org/data/2.5/weather?q=Nairobi&appid=YOUR_API_KEY"
+curl "https://api.openweathermap.org/data/2.5/weather?q=London&appid=YOUR_API_KEY"
 ````
 
 
@@ -27,6 +28,8 @@ You can specify the unit system with the `units` parameter:
 * `standard` (default, Kelvin)
 * `metric` (Celsius)
 * `imperial` (Fahrenheit)
+
+**Example**
 
 ```bash
 curl "https://api.openweathermap.org/data/2.5/weather?q=London&units=metric&appid=YOUR_API_KEY"
