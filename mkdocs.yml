@@ -109,17 +109,18 @@ nav:
       - Markdown: productguides/markdown.md
       - Whitepaper: productguides/whitepaper.md
   - API Docs:
+      - Home: apidocs/index.md
       - Weather API:
           - Home: apidocs/weatherapi/index.md
           - Authentication: apidocs/weatherapi/authentication.md
-          - Current: apidocs/weatherapi/currentweather.md
+          - Current Weather: apidocs/weatherapi/currentweather.md
           - Forecast: apidocs/weatherapi/forecast.md
           - Errors: apidocs/weatherapi/errors.md
       - Payments API:
           - Home: apidocs/paymentsapi/index.md
           - Authentication: apidocs/paymentsapi/authentication.md
-          - Create: apidocs/paymentsapi/createpayment.md
-          - Status: apidocs/paymentsapi/getstatus.md
+          - Create Payment: apidocs/paymentsapi/createpayment.md
+          - Payment Status: apidocs/paymentsapi/getstatus.md
           - Errors: apidocs/paymentsapi/errors.md
   - Blog: blogs/index.md
   - Contact: contact.md
