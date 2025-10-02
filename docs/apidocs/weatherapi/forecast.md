@@ -34,8 +34,7 @@ GET /forecast
 
 ```bash
 curl "https://api.openweathermap.org/data/2.5/forecast?q=London&units=metric&appid=YOUR_API_KEY"
-
-````
+```
 
 ### By Coordinates
 
