@@ -26,7 +26,7 @@ For each API, the documentation is structured into:
 A: The **Weather API** is based on the real OpenWeather API. The **Payments API** is a **mock API**, created for documentation demonstration purposes.  
 
 **Q: Can I test the APIs?**  
-A: Yes — you can test the Weather API using your own OpenWeather API key. The Payments API examples are illustrative only.  
+A: Yes  you can test the Weather API using your own OpenWeather API key. The Payments API examples are illustrative only.  
 
 **Q: Why document them?**  
 A: To showcase technical writing skills, including structuring docs, writing clear examples, and explaining authentication, endpoints, and error handling.  
