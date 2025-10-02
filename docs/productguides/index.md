@@ -1,5 +1,17 @@
-# Product Guides  
+# Product Guides
 
-Here are my product guides, where I write step-by-step documentation and onboarding content.  
+Welcome to the **Product Guides** section of my documentation portfolio.  
+Here, I’ve created clear and practical guides for popular tools and formats.  
+Each guide is written to help users get started quickly, understand the essentials, and explore best practices.  
 
-👉 <a href="https://github.com/koros33/product guides" target="_blank">View the Product Guides on GitHub</a>  
+## Available Guides
+
+- [Git](git.md) > Version control basics, workflows, and collaboration tips.  
+- [Notion](notion.md) > Organizing workspaces, databases, and documentation.  
+- [Slack](slack.md) > Communication, integrations, and productivity features.  
+- [Markdown](markdown.md) > Writing clean, structured text with formatting.  
+- [Whitepaper](whitepaper.md) > Structuring and writing professional technical papers.
+- [Postman](postman.md) > Testing APIS to help me create documentation.  
+
+
+This section will grow as I add more tools and examples of my documentation work.  
