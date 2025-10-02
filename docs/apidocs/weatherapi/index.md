@@ -8,22 +8,21 @@ For full API details, visit the [official OpenWeather docs](https://openweatherm
 
 ---
 
-## 📌 What’s Covered
+##  What’s Covered
 - [Authentication](authentication.md) – Learn how to use your API key.
 - [Current Weather](current-weather.md) – Get real-time weather by city or coordinates.
 - [Forecast](forecast.md) – Retrieve 5-day / 3-hour forecast data.
 - [Error Codes](errors.md) – Understand possible error responses.
+  
 
----
-
-## 🚀 Getting Started
+##  Getting Started
 
 ### Prerequisites
 1. A free [OpenWeather account](https://home.openweathermap.org/users/sign_up).  
 2. An API key (generated from your OpenWeather dashboard).  
 3. A tool like **cURL**, **Postman**, or any HTTP client to make requests.  
 
----
+
 
 ### Base URL
 All requests are made over HTTPS:
@@ -33,7 +32,7 @@ All requests are made over HTTPS:
 
 ````
 
----
+
 
 ### Quick Example
 
@@ -59,9 +58,8 @@ Sample response (sample):
 }
 ```
 
----
 
-## ❓ FAQs
+##  FAQs
 
 **Q: Is this the official OpenWeather API documentation?**
 A: No. This is a simplified version created as a **portfolio sample for technical writing**.
@@ -75,9 +73,8 @@ A: Free accounts are limited to **60 requests per minute** (check official docs 
 **Q: Why do I see errors when testing?**
 A: Make sure you’ve included a valid `appid` parameter (your API key). See the [Error Codes](errors.md) page for details.
 
----
 
-## 📖 Next Steps
+##  Next Steps
 
 * [Set up authentication](authentication.md)
 * Try the [Current Weather](current-weather.md) endpoint
