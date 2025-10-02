@@ -5,7 +5,7 @@ It returns temperature, humidity, wind, clouds, and weather conditions for each 
 
 
 
-## 🌍 Endpoint
+##  Endpoint
 ```
 
 GET /forecast
@@ -20,7 +20,9 @@ Base URL:
 ````
 
 
-## 🔧 Parameters
+##  Parameters
+
+
 
 | Name      | Type   | Required | Description |
 |-----------|--------|----------|-------------|
@@ -34,7 +36,7 @@ Base URL:
 | `appid`   | string | Yes      | Your API key |
 
 
-## 📌 Example Requests
+##  Example Requests
 
 ### By City Name
 ```bash
@@ -54,7 +56,7 @@ curl "https://api.openweathermap.org/data/2.5/forecast?q=London&cnt=5&appid=YOUR
 ```
 
 
-## 📤 Example Response (sample)
+##  Example Response (sample)
 
 ```json
 {
@@ -85,7 +87,7 @@ curl "https://api.openweathermap.org/data/2.5/forecast?q=London&cnt=5&appid=YOUR
 ```
 
 
-## 📝 Notes
+##  Notes
 
 * The **maximum forecast horizon** is **5 days / 40 records** (3-hour steps).
 * Use `cnt` to limit the number of results (useful for small apps or dashboards).
@@ -93,7 +95,7 @@ curl "https://api.openweathermap.org/data/2.5/forecast?q=London&cnt=5&appid=YOUR
 
 ---
 
-## ⚡ Common Use Cases
+##  Common Use Cases
 
 * Build a 5-day weather forecast dashboard.
 * Add forecast data to a mobile weather app.
