@@ -3,21 +3,20 @@
 Welcome to **Koros Docs**, your central hub for technical guides, API references, and resources for popular tools and products.
 
 ## Explore Our Documentation
-
-- **APIs**
+ **APIs**
   - [Weather API](weatherapi/index.md) – Access current weather data and forecasts.
   - [Payments API](paymentsapi/index.md) – Create payments, check status, and manage transactions.
 
-- **Product Guides**
+ **Product Guides**
   - Guides for commonly used tools like **Notion**, **Git/GitHub**, **Postman**, and more.
 
-- **White Papers**
+ **White Papers**
   - In-depth technical write-ups and industry insights.
 
-- **Blog & Tutorials**
+ **Blog & Tutorials**
   - Step-by-step tutorials, product walkthroughs, and technical articles.
 
-- **Contact**
+ **Contact**
   - Reach out for questions, feedback, or collaborations. [Contact Page](contact.md)
 
 ## Getting Started
