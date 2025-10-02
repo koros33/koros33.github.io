@@ -4,19 +4,19 @@ The OpenWeather API uses standard HTTP status codes to indicate the success or f
 When an error occurs, the response body includes a JSON object with details.
 
 
-##  Error Format
+## Error Format
+
 All errors follow this structure:
 
 ```json
 {
-  "cod": "404",
+  "code": "404",
   "message": "city not found"
 }
 ````
 
 
-##  Common Status Codes
-
+## Common Status Codes
 
 | Code    | Meaning               | Example Message                      | When It Happens                   |
 | ------- | --------------------- | ------------------------------------ | --------------------------------- |
@@ -34,7 +34,7 @@ All errors follow this structure:
 
 ```json
 {
-  "cod": 401,
+  "code": 401,
   "message": "Invalid API key. Please see http://openweathermap.org/faq#error401"
 }
 ```
@@ -43,7 +43,7 @@ All errors follow this structure:
 
 ```json
 {
-  "cod": "404",
+  "code": "404",
   "message": "city not found"
 }
 ```
@@ -52,7 +52,7 @@ All errors follow this structure:
 
 ```json
 {
-  "cod": 429,
+  "code": 429,
   "message": "Your account is temporarily blocked due to exceeding the requests limit."
 }
 ```
