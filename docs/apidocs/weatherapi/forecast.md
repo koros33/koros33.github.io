@@ -6,41 +6,35 @@ It returns temperature, humidity, wind, clouds, and weather conditions for each 
 
 
 ##  Endpoint
-```
 
 GET /forecast
 
-```
-
-Base URL:
-```
-
-[https://api.openweathermap.org/data/2.5/forecast](https://api.openweathermap.org/data/2.5/forecast)
-
-````
-
-
-##  Parameters
+ [https://api.openweathermap.org/data/2.5/forecast](https://api.openweathermap.org/data/2.5/forecast)
 
 
 
-| Name      | Type   | Required | Description |
-|-----------|--------|----------|-------------|
-| `q`       | string | Yes (if no coordinates/zip) | City name (e.g. `"London"`) |
-| `lat`     | float  | Yes (if no city name/zip)   | Latitude coordinate |
-| `lon`     | float  | Yes (if no city name/zip)   | Longitude coordinate |
-| `zip`     | string | Optional | Zip/postal code + country code (e.g. `94040,us`) |
-| `cnt`     | int    | Optional | Number of forecast records to return (max 40) |
-| `units`   | string | Optional | Unit system: `standard` (Kelvin), `metric` (°C), `imperial` (°F) |
-| `lang`    | string | Optional | Language for weather description |
-| `appid`   | string | Yes      | Your API key |
+## Parameters
+
+| Name    | Type   | Required                     | Description                                      |
+|---------|--------|-------------------------------|-------------------------------------------------|
+| `q`     | string | Yes (if no coordinates/zip)  | City name (e.g. `"London"`)                     |
+| `lat`   | float  | Yes (if no city name/zip)    | Latitude coordinate                              |
+| `lon`   | float  | Yes (if no city name/zip)    | Longitude coordinate                             |
+| `zip`   | string | Optional                     | Zip/postal code + country code (e.g. `94040,us`)|
+| `cnt`   | int    | Optional                     | Number of forecast records to return (max 40)   |
+| `units` | string | Optional                     | Unit system: `standard` (Kelvin), `metric` (°C), `imperial` (°F) |
+| `lang`  | string | Optional                     | Language for weather description                |
+| `appid` | string | Yes                          | Your API key                                   |
 
 
-##  Example Requests
+
+## Example Requests
 
 ### By City Name
+
 ```bash
 curl "https://api.openweathermap.org/data/2.5/forecast?q=London&units=metric&appid=YOUR_API_KEY"
+
 ````
 
 ### By Coordinates
@@ -93,7 +87,6 @@ curl "https://api.openweathermap.org/data/2.5/forecast?q=London&cnt=5&appid=YOUR
 * Use `cnt` to limit the number of results (useful for small apps or dashboards).
 * `lang` parameter helps localize weather descriptions by language.
 
----
 
 ##  Common Use Cases
 
