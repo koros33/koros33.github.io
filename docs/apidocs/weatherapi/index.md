@@ -27,12 +27,8 @@ For full API details, visit the [official OpenWeather docs](https://openweatherm
 ### Base URL
 All requests are made over HTTPS:
 ```
-
 [https://api.openweathermap.org/data/2.5/](https://api.openweathermap.org/data/2.5/)
-
-````
-
-
+```
 
 ### Quick Example
 
@@ -40,7 +36,7 @@ Request current weather for Nairobi, Kenya (metric units):
 
 ```bash
 curl "https://api.openweathermap.org/data/2.5/weather?q=London&units=metric&appid=YOUR_API_KEY"
-````
+```
 
 Sample response (sample):
 
