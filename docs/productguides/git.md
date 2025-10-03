@@ -25,7 +25,6 @@ winget install git.git
 
 Installing Git is like setting up your notebook before you start writing.
 
----
 
 ## Configuring Git
 
@@ -71,7 +70,7 @@ git push origin feature/new-feature
 git pull origin main
 ```
 
-Collaboration is like dancing. Push your moves, pull your partner’s — stay in sync.
+Collaboration is like dancing. Push your moves, pull your partner’s  stay in sync.
 
 
 ## Advanced Git Concepts
