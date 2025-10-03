@@ -56,12 +56,6 @@ plugins:
       lang: en
       separator: '[\s\-\.]+'
   - tags
-  - blog:
-      blog_dir: blog
-      post_dir: blog
-      archive: true
-      categories: true
-      pagination: true
       
 # Extensions
 markdown_extensions:
@@ -129,7 +123,6 @@ nav:
           - Errors: apidocs/paymentsapi/errors.md
   - Blog: 
       - Home: index.md
-      - Blog: blog.md
   - Contact: contact.md
 
 
