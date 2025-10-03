@@ -1,13 +1,13 @@
 ---
-title: Why Clear Documentation Matters
+title: Blog
 date: 2025-10-03
-author: Koros
-tags:
-  - documentation
-  - technical writing
-  - productivity
-description: Why clear documentation saves time, improves user experience, and builds trust.
+description: Blog landing page
 ---
+
+# Blog
+
+Welcome to the blog landing page.
+
 
 
 # Why Clear Documentation Matters
