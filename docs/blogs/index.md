@@ -1,6 +1,10 @@
-title: Blog homepage
-date: 2025-09-30
-description: Welcome to my blog where I write about documentation and technical writing.
+---
+title: Blog
+date: 2025-10-03
+description: Welcome to my blog landing page
+---
+
+# Welcome to the Koros Blog
 
 Here, I share insights on technical writing, documentation practices, and the tools I use.  
 My goal is to make complex concepts simple and show how good documentation can improve technology adoption and user experience.  
