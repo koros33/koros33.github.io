@@ -127,7 +127,7 @@ nav:
           - Create Payment: apidocs/paymentsapi/createpayment.md
           - Payment Status: apidocs/paymentsapi/getstatus.md
           - Errors: apidocs/paymentsapi/errors.md
-  - Blog: blogs/index.md
+  - Blog: blogs.md
   - Contact: contact.md
 
 
