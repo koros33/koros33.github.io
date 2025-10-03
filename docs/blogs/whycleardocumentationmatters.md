@@ -1,3 +1,9 @@
+---
+title: Why Clear Documentation Matters
+date: 2025-10-03
+tags: [documentation, writing, productivity]
+---
+
 # Why Clear Documentation Matters
 
 If you’ve ever spent hours trying to set up a tool or follow an API guide that felt like it was written in another language, you already know the pain of bad documentation. On the flip side, when you find documentation that’s clear, well-structured, and easy to follow it feels like magic. Suddenly, you’re productive, confident, and even excited to keep going.
