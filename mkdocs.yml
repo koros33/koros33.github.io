@@ -55,8 +55,7 @@ plugins:
   - search:
       lang: en
       separator: '[\s\-\.]+'
-  - tags:
-      tags_file: tags.md
+  - tags
   - blog:
       blog_dir: blog
       post_dir: blog
