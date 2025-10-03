@@ -122,7 +122,7 @@ nav:
           - Payment Status: apidocs/paymentsapi/getstatus.md
           - Errors: apidocs/paymentsapi/errors.md
   - Blog: 
-      - Home: index.md
+      - Home: blogs/index.md
   - Contact: contact.md
 
 
