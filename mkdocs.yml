@@ -128,8 +128,8 @@ nav:
           - Payment Status: apidocs/paymentsapi/getstatus.md
           - Errors: apidocs/paymentsapi/errors.md
   - Blog: 
-      -Home: index.md
-      -Blog: blog.md
+      - Home: index.md
+      - Blog: blog.md
   - Contact: contact.md
 
 
