@@ -1,8 +1,3 @@
----
-title: Blog
-date: 2025-10-03
-description: Welcome to my blog landing page
----
 
 # Welcome to the Koros Blog
 
