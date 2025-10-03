@@ -2,7 +2,7 @@
 
 ## Introduction
 Git is a tool that helps you keep track of your code like a writer keeps track of drafts  you never lose work, and you can always go back to a specific version of your story.
-Git isn’t just version control — it’s **time travel for your code**.
+Git isn’t just version control  it’s **time travel for your code**.
 Good Git habits mean smoother teamwork, less stress, and better projects.
 
 This guide will walk you through the essentials: installing Git, setting up your identity, working with commits and branches, and understanding the deeper concepts that make Git powerful.
