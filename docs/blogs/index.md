@@ -5,13 +5,13 @@ My goal is to make complex concepts simple and show how good documentation can i
 
 ## Latest Posts
 
-- [Why Clear Documentation Matters in Tech](whycleardocumentation-matters.md)  
+- [Why Clear Documentation Matters in Tech](whycleardocumentationmatters.md)  
   *How documentation bridges the gap between products and users.*  
 
-- [Markdown: The Writer’s Secret Weapon](markdownwriters-secret.md)  
+- [Markdown: The Writer’s Secret Weapon](markdownwriterssecret.md)  
   *A simple but powerful formatting tool every writer should know.*  
 
-- [Getting Started with Git for Writers](gitforwriters.md)  
+- [Getting Started with Git for Writers](gitforwritersmd)  
   *Version control explained for documentation and collaboration.*  
 
 - [Behind the Scenes: Building My Documentation Portfolio](buildingmydocportfolio.md)  
