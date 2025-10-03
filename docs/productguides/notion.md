@@ -2,7 +2,7 @@
 
 ## What to Know Before You Start
 
-THis guide is for beginners.
+This guide is for beginners.
 
 Notion is a tool for writing, planning, and organizing.
 
