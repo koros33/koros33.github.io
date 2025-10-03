@@ -1,16 +1,21 @@
 # About Me
 
-> Docs should be like good coffee: strong, clear, and impossible to ignore.   
 
-I’m Koros Ian, a technical writer with a background in journalism and writing.  
-I craft **API docs, user manuals, onboarding guides, and FAQs** that help your users succeed without rage clicking.  
+I’m **Koros Ian**, a technical writer with a background in journalism. I see documentation as more than instructions , it’s turning complexity into clarity so users don’t rage-click their way into frustration.
 
-- Markdown + Git = my happy place   
-- Postman + cURL = my API playground   
-- Notion + Confluence = my collaboration toolkit
-- openAPI + swagger.  
+My toolkit:
 
-Currently exploring the intersection of **SaaS, DevTools, and AI** and backend engineering.
+* **Markdown + Git** → my blueprints
+* **Postman + cURL** → my lab
+* **Notion + Confluence** → my commons
+* **OpenAPI + Swagger** → my compass
+* 
+"I’m currently documenting a **Payments API with Swagge**r, focusing on making the docs as straightforward and usable as the API itself."
 
 
-> Open to **remote roles & internships** where I can put my documentation skills to work.  
+Docs should be like good coffee: **strong, clear, and impossible to ignore**.
+
+I believe good docs don’t just explain software — they build trust.
+
+Open to **remote roles & internships** where I can put this philosophy into practice.
+
