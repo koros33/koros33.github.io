@@ -57,7 +57,13 @@ plugins:
       separator: '[\s\-\.]+'
   - tags:
       tags_file: tags.md
-
+  - blog:
+      blog_dir: blog
+      post_dir: blog
+      archive: true
+      categories: true
+      pagination: true
+      
 # Extensions
 markdown_extensions:
   - abbr
