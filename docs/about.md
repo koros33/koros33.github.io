@@ -10,12 +10,12 @@ My toolkit:
 * **Notion + Confluence** → my commons
 * **OpenAPI + Swagger** → my compass
 * 
-"I’m currently documenting a **Payments API with Swagge**r, focusing on making the docs as straightforward and usable as the API itself."
+"I’m currently documenting a **Payments API with spotlight sudio** and **open source contribution** focusing on making the docs as straightforward and usable as the API itself."
 
 
 Docs should be like good coffee: **strong, clear, and impossible to ignore**.
 
-I believe good docs don’t just explain software — they build trust.
+I believe good docs don’t just explain software  they build trust.
 
 Open to **remote roles & internships** where I can put this philosophy into practice.
 
