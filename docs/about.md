@@ -9,7 +9,7 @@ My toolkit:
 * **Postman + cURL** → my lab
 * **Notion + Confluence** → my commons
 * **OpenAPI + Swagger** → my compass
-* 
+  
 "I’m currently documenting a **Payments API with spotlight sudio** and **open source contribution** focusing on making the docs as straightforward and usable as the API itself."
 
 
