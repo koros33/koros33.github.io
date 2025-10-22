@@ -123,6 +123,9 @@ nav:
           - Errors: apidocs/paymentsapi/errors.md
   - Blog: 
       - Home: blogs/index.md
+      - How to Stay Safe Online in 2025: blogs/importanceofcyberwareness.md
+      - Difference Between Virus Worm and Trojan: blogs/differencebetweenviruswormtrojan.md
+  - About: about.md
   - Contact: contact.md
 
 
