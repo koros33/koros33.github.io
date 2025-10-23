@@ -1,5 +1,7 @@
 # How to Stay Safe Online in 2025 A Simple Cybersecurity Awareness Guide
 
+This is a high level i will  write a deeper one soon.
+
 **By Koros**
 
 
@@ -64,3 +66,4 @@ Protecting your data means protecting your identity, your money, and your peace 
 
 If you found this helpful, share it  awareness is our first line of defense.
 
+Life was easier not knowing these 
