@@ -54,19 +54,19 @@ THREAT_RULES = {
 
 1. **Live Log Monitoring**
 
-   ```bash
+   ```
    python log_hunter.py log Security --detect --summary
    ```
 
 2. **Offline EVTX Analysis**
 
-   ```bash
+   ```
    python log_hunter.py evtx Security.evtx --ids 4625,4672 --summary
    ```
 
 3. **Directory Malware Scan (with VirusTotal + YARA)**
 
-   ```bash
+   ```
    python log_hunter.py scan C:\Users\Public --hash --yara --vt-key YOUR_API_KEY
    ```
 
