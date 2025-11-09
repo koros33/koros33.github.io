@@ -9,12 +9,14 @@ I am a **self-taught Computer Science and Cybersecurity enthusiast** with a stro
 - Revising for CompTIA Security+  
 
 **Programming Languages:**
+
 - C  
 - JavaScript  
 - Python  
 - SQL  
 
 **Tools & Platforms:**
+
 - tcpdump  
 - Wireshark  
 - Suricata  
