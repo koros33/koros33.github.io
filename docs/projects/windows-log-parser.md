@@ -1,4 +1,4 @@
-# Windows Log Parser & Threat Hunter (`log_hunter.py`)
+# Windows Log Parser & Threat Hunter
 
 ## 🧠 Project Overview
 This project  **Log Hunter**  is an enterprise-grade **Windows Event Log & Threat Hunting tool** I developed to support Security Operations Center (SOC) workflows.  
@@ -30,6 +30,7 @@ The goal was to simulate what a **cyber analyst** does in an enterprise environm
 ## 🧩 Detection Logic Example
 **Brute-force Detection (Event ID 4625)**  
 Tracks multiple failed logins within a time window:
+
 ```python
 THREAT_RULES = {
     "brute_force": {"event_id": 4625, "threshold": 5, "window_min": 5},
@@ -42,12 +43,11 @@ THREAT_RULES = {
 
 **Sample Alert Output:**
 
-```
 ⚠️  BRUTE_FORCE - Severity: HIGH
    User: admin
    Attempts: 8
    Timeframe: 2025-11-09 09:10:23 to 2025-11-09 09:14:55
-```
+
 
 
 ## 🧪 Example Workflow
