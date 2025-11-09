@@ -9,25 +9,6 @@ The project bridges the gap between **attack simulation** and **defense evaluati
 > 🟣 **Status:** In Production, actively maintained and evolving with new attack modules and detection validators.
 
 
-## ⚙️ File Structure
-```
-
-PurpleTeamZero/
-├── attacks/
-│   ├── T1059_powershell.yaml   # MITRE ATT&CK: Command & Scripting (PowerShell)
-│   ├── T1110_brute.yaml        # MITRE ATT&CK: Brute Force technique
-│   ├── powershell_evil.ps1     # Simulated malicious PowerShell payload
-│   └── brute_force.ps1         # Simulated credential-stuffing attack
-├── log_hunter.py               # Blue-team detection & triage script
-├── run_purple.py               # Central orchestrator for red + blue workflows
-├── validator.py                # Verifies whether detections were triggered
-├── emulator.py                 # Executes attack simulations safely in a sandbox
-├── README.md
-└── .gitignore
-
-````
-
-
 ## 🔍 Key Capabilities
 - **Attack Emulation (Red Team)**  
   Simulates real adversarial behaviors using MITRE ATT&CK-aligned YAML definitions and PowerShell payloads.  
