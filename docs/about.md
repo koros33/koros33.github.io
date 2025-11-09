@@ -23,6 +23,7 @@ I am a **self-taught Computer Science and Cybersecurity enthusiast** with a stro
 - Splunk  
 
 **Strengths & Mindset:**
+
 - Quick to learn and adapt to new technologies  
 - Hands-on problem solving and practical implementation  
 - Focused on cybersecurity analysis, threat detection, and automation  
