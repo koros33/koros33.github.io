@@ -1,30 +1,40 @@
-# Koros Docs Hub
+# Welcome to My Cybersecurity Portfolio
 
-Welcome to **Koros Docs**, your central hub for technical guides, API references, and resources for popular tools and products.
+Hi, I’m Koros Ian , an aspiring **Cybersecurity Analyst** exploring the world of threat detection, log analysis, and red/blue/purple team exercises.  
+This portfolio showcases hands-on projects where I combine **practical tools**, **analytical thinking**, and **security automation** to solve real-world problems.
 
-## Explore Our Documentation
- **APIs**
-  - [Weather API](weatherapi/index.md) – Access current weather data and forecasts.
-  - [Payments API](paymentsapi/index.md) – Create payments, check status, and manage transactions.
 
- **Product Guides**
-  - Guides for commonly used tools like **Notion**, **Git/GitHub**, **Postman**, and more.
+## 🚀 Featured Projects
 
- **White Papers**
-  - In-depth technical write-ups and industry insights.
+### 1. [Intrusion Detection System (IDS)](ids.md)
+A **lightweight IDS prototype** built in Python that monitors network traffic, applies configurable rules, and generates real-time alerts.  
+Highlights: rule-based detection, CLI workflow, packet sniffing, and modular design for security testing.
 
- **Blog & Tutorials**
-  - Step-by-step tutorials, product walkthroughs, and technical articles.
+### 2. [Windows Log Parser & Threat Hunter](windows-log-parser.md)
+Enterprise ready log analysis tool (`log_hunter.py`) for **SOC workflows**.  
+Features: live log parsing, EVTX offline analysis, brute-force & privilege escalation detection, YARA & VirusTotal integration.
 
- **Contact**
-  - Reach out for questions, feedback, or collaborations. [Contact Page](contact.md)
+### 3. [Purple Team Zero](purple-team-zero.md)
+A **production-ready purple-team framework** combining offensive emulation and defensive validation.  
+Includes attack simulations, automated detection validation, and MITRE ATT&CK-aligned scenarios.
 
-## Getting Started
+### 4. [Password Strength Checker](password-strength-checker.md)
+A small but practical Python utility to **estimate password strength**, visualize entropy, and calculate brute-force attack time.  
+Great for demonstrating risk analysis and explaining password security to end-users.
 
-Start exploring the content that matters to you:
 
-1. [API Docs](index.md#apis) – Learn how to authenticate, use endpoints, and handle errors.  
-2. [Product Guides](index.md#product-guides) – Step-by-step guides for popular tools and software.  
-3. [White Papers](index.md#white-papers) – Detailed technical insights and research.  
-4. [Blog & Tutorials](index.md#blog--tutorials) – Tutorials, walkthroughs, and articles.  
-5. [Contact](contact.md) – Get in touch for support or feedback.
+## 🧠 My Focus
+- **Threat Detection & Response:** Building tools to identify and respond to attacks in real time.  
+- **Log Analysis & SOC Workflows:** Parsing logs, generating actionable insights, and validating detections.  
+- **Red & Blue Team Collaboration:** Simulating attacks safely while testing defenses.  
+- **Practical Security Automation:** Writing Python scripts and frameworks that scale for analyst workflows.
+
+
+## 📈 Why These Projects Matter
+Each project in this portfolio demonstrates my ability to:
+- Apply **analytical reasoning** to real security problems.  
+- Combine **offensive thinking** with defensive engineering.  
+- Communicate technical findings through **visuals, logs, and reports**.  
+- Build modular, production-ready tools that can integrate with existing security workflows.
+
+
