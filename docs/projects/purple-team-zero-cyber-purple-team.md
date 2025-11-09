@@ -6,7 +6,28 @@ It’s designed to test how well security controls, detections, and analysts res
 
 The project bridges the gap between **attack simulation** and **defense evaluation**, allowing me to model real adversarial behavior and verify whether detection systems (like my `log_hunter.py` or IDS) trigger properly.
 
-> 🟣 **Status:** In Production, actively maintained and evolving with new attack modules and detection validators.
+> 🟣 **Status:** In Production  actively maintained and evolving with new attack modules and detection validators.
+
+
+
+## ⚙️ File Structure
+```
+
+PurpleTeamZero/
+├── attacks/
+│   ├── T1059_powershell.yaml   # MITRE ATT&CK: Command & Scripting (PowerShell)
+│   ├── T1110_brute.yaml        # MITRE ATT&CK: Brute Force technique
+│   ├── powershell_evil.ps1     # Simulated malicious PowerShell payload
+│   └── brute_force.ps1         # Simulated credential-stuffing attack
+├── log_hunter.py               # Blue-team detection & triage script
+├── run_purple.py               # Central orchestrator for red + blue workflows
+├── validator.py                # Verifies whether detections were triggered
+├── emulator.py                 # Executes attack simulations safely in a sandbox
+├── README.md
+└── .gitignore
+
+````
+
 
 
 ## 🔍 Key Capabilities
@@ -24,6 +45,7 @@ The project bridges the gap between **attack simulation** and **defense evaluati
   The `emulator.py` component runs all scripts in a controlled environment to avoid real damage.
 
 
+
 ## 🧰 Tech Stack
 - **Language:** Python + PowerShell  
 - **Frameworks:** MITRE ATT&CK mapping  
@@ -35,13 +57,11 @@ The project bridges the gap between **attack simulation** and **defense evaluati
 1. **Run an emulation** (e.g., PowerShell abuse)
    ```bash
    python run_purple.py --attack T1059_powershell.yaml
-````
 
 2. **Monitor with detection tools**
-   ```bash
+
    * `log_hunter.py` for event logs
    * `IDS_NEW` for network triggers
-````
 
 3. **Validate results**
 
@@ -67,6 +87,7 @@ The project bridges the gap between **attack simulation** and **defense evaluati
 * Understanding how **purple-team collaboration** improves SOC maturity.
 
 
+
 ## 🚀 Future Plans
 
 * Add new emulations for **phishing**, **lateral movement**, and **exfiltration**.
@@ -74,7 +95,5 @@ The project bridges the gap between **attack simulation** and **defense evaluati
 * Expand YAML schemas to include **adversary metadata** (group names, TTPs, impact).
 
 
-
 > 💡 *PurpleTeamZero* represents my drive to master both **attack simulation** and **defensive engineering**, closing the loop between red and blue into a unified, data-driven purple-team workflow.
-
 
