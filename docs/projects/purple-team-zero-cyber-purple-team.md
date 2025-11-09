@@ -38,20 +38,21 @@ The project bridges the gap between **attack simulation** and **defense evaluati
 ## ⚔️ Example Workflow
 1. **Run an emulation** (e.g., PowerShell abuse)
 
-    ```
-    python run_purple.py --attack T1059_powershell.yaml
+    ``` python
+    run_purple.py --attack T1059_powershell.yaml
+    ````
 
 
 3. **Monitor with detection tools**
 
-* `log_hunter.py` for event logs
-* `IDS_NEW` for network triggers
+ `log_hunter.py` for event logs
+ `IDS_NEW` for network triggers
 
 
 4. **Validate results**
 
-   ```bash
-   python validator.py --attack T1059_powershell.yaml --logs logs/ids_alerts.log
+   ```bash python
+   validator.py --attack T1059_powershell.yaml --logs logs/ids_alerts.log
    ````
 
 5. **Generate a detection report**
