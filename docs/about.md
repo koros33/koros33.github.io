@@ -1,21 +1,26 @@
 # About Me
 
+I am a **self-taught Computer Science and Cybersecurity enthusiast** with a strong passion for practical tools and securing systems.  
 
-I’m **Koros Ian**, a technical writer with a background in journalism. I see documentation as more than instructions , it’s turning complexity into clarity so users don’t rage-click their way into frustration.
+**Education & Courses:**
+- CS50 and other MIT courses (YouTube)  
+- Google Cybersecurity Certificate  
+- Revising for CompTIA Security+  
 
-My toolkit:
+**Programming Languages:**
+- C  
+- JavaScript  
+- Python  
+- SQL  
 
-* **Markdown + Git** → my blueprints
-* **Postman + cURL** → my lab
-* **Notion + Confluence** → my commons
-* **OpenAPI + Swagger** → my compass
-  
-"I’m currently documenting a **Payments API with spotlight sudio** and **open source contribution** focusing on making the docs as straightforward and usable as the API itself."
+**Tools & Platforms:**
+- tcpdump  
+- Wireshark  
+- Suricata  
+- Splunk  
 
-
-Docs should be like good coffee: **strong, clear, and impossible to ignore**.
-
-I believe good docs don’t just explain software  they build trust.
-
-Open to **remote roles & internships** where I can put this philosophy into practice.
-
+**Strengths & Mindset:**
+- Quick to learn and adapt to new technologies  
+- Hands-on problem solving and practical implementation  
+- Focused on cybersecurity analysis, threat detection, and automation  
+- Driven by curiosity and continuous learning
