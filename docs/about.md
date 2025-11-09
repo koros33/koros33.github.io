@@ -1,6 +1,7 @@
 # About Me
 
 I am a **self-taught Computer Science and Cybersecurity enthusiast** with a strong passion for practical tools and securing systems.  
+💼 *Open to Cybersecurity Analyst and related opportunities.*
 
 **Education & Courses:**
 - CS50 and other MIT courses (YouTube)  
