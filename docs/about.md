@@ -1,6 +1,10 @@
 # About Me
 
-I am a **self-taught Computer Science and Cybersecurity enthusiast** with a strong passion for practical tools and securing systems.  
+I am a **self-taught Computer Science and Cybersecurity enthusiast** with a strong passion for practical tools and securing systems. 
+
+
+Hands on cybersecurity enthusiast focused on threat detection, monitoring, and defensive automation. Skilled with tools like **Wireshark, Zeek, Suricata, and Splunk**, I approach security challenges by combining offensive insight with practical defensive solutions. I build and optimize systems to anticipate attacks, analyze activity, and strengthen overall security posture.
+
 💼 *Open to Cybersecurity Analyst and related opportunities.*
 
 **Education & Courses:**
@@ -13,7 +17,7 @@ I am a **self-taught Computer Science and Cybersecurity enthusiast** with a stro
 - C  
 - JavaScript  
 - Python  
-- SQL  
+- powershell
 
 **Tools & Platforms:**
 
@@ -22,7 +26,7 @@ I am a **self-taught Computer Science and Cybersecurity enthusiast** with a stro
 - Suricata  
 - Splunk  
 
-**Strengths & Mindset:**
+**Strengths:**
 
 - Quick to learn and adapt to new technologies  
 - Hands-on problem solving and practical implementation  
