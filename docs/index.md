@@ -22,6 +22,9 @@ Includes attack simulations, automated detection validation, and MITRE ATT&CK-al
 A small but practical Python utility to **estimate password strength**, visualize entropy, and calculate brute-force attack time.  
 Great for demonstrating risk analysis and explaining password security to end-users.
 
+### 5. Parent-Child Process Threat Hunting Notebook__
+Lightweight notebook showing how to detect suspicious parent–child process relationships using Windows event logs.
+
 
 ## 🧠 My Focus
 - **Threat Detection & Response:** Building tools to identify and respond to attacks in real time.  
