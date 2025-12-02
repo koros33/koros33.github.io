@@ -5,7 +5,7 @@ I am a **self-taught Computer Science and Cybersecurity enthusiast** with a stro
 
 Hands on cybersecurity enthusiast focused on threat detection, monitoring, and defensive automation. Skilled with tools like **Wireshark, Zeek, Suricata, and Splunk**, I approach security challenges by combining offensive insight with practical defensive solutions. I build and optimize systems to anticipate attacks, analyze activity, and strengthen overall security posture.
 
-💼 *Open to Cybersecurity Analyst and related opportunities.*
+💼 *Open to internship or junior Cybersecurity Analyst role and related opportunities.*
 
 **Education & Courses:**
 - CS50 and other MIT courses (YouTube)  
